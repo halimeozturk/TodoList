@@ -10,7 +10,7 @@ class TodoForm extends Component {
             items : [],
             message : "",
             text:"",
-            status:'passive',
+            status:false,
             doneTask: []
         }
     }
@@ -82,6 +82,7 @@ class TodoForm extends Component {
         })
     }
     
+
     render(){
         const {message,items} = this.state;
         return(

@@ -3,7 +3,6 @@
   font-size: 15px;
   margin-left: auto;
   margin-right:auto;
-  max-width: 800px;
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -18,22 +17,3 @@
   font-family: 'Merriweather Sans',sans-serif;
   font-size: 15px;
 }
-
-
-  .button1 {
-    background-color:#f5f5dc;
-    color: #800000;
-    padding: 4px ;
-    border: 0.9px solid #800000;
-    border-radius: 8px;
-    margin-right: 3px
-  }
-
-  .button2 {
-    background-color:#f5f5dc;
-    color: #800000;
-    padding: 4px 20px ;
-    border: 0.9px solid #800000;
-    border-radius: 8px
-
-  }

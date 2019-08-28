@@ -8,19 +8,20 @@ class TodoList extends Component {
       return(
         <div key={i} className="TodoList">
           <span className="text">{i+1}. {elem}</span>
-          <span >
-          <button className="button1"  type="button"  onClick={(e)=>this.props.removeItem(elem)}>Delete</button>
-          <button className= "button2" type="button" onClick={(e)=>this.props.clearAll(e)}>x</button>
-          </span>
+          <div >
+          <button  type="button"  onClick={(e)=>this.props.removeItem(elem)}>Delete</button>
+          <button  type="button" onClick={(e)=>this.props.clearAll(e)}>x</button>
+          </div>
         </div>
       )
     })
 
-  return (
-    <div >
-      {items}      
-    </div>
-  );
+    return (
+      <div >
+        {items}      
+      </div>
+    );
+  }
 }
-}
+
 export default TodoList;
